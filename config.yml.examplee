@@ -1,0 +1,7 @@
+port: 3001
+logger-output-path: "go_oauth2"
+
+oauthStateString: "****"
+google:
+  clientID: "*****************************************"
+  clientSecret: "***********************"

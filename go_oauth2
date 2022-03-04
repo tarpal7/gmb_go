@@ -1,0 +1,353 @@
+{"level":"info","time":"2022-02-27T14:26:43.814+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T14:28:12.376+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T14:28:12.376+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state=thisshouldberandom"}
+{"level":"info","time":"2022-02-27T14:28:25.662+0200","file":"services/google.go:46","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T14:28:25.662+0200","file":"services/google.go:49","msg":"thisshouldberandom"}
+{"level":"info","time":"2022-02-27T14:28:25.663+0200","file":"services/google.go:57","msg":"4/0AX4XfWiz8rMNA9s0JJOA_r62ZKnN4jI9Ol04jNNDBX0gue16V1McogqNHUo8GQ-csh8aCw"}
+{"level":"info","time":"2022-02-27T14:28:25.892+0200","file":"services/google.go:74","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM8i48ADYqd3OHZlbP26CDeGrDhJxbSvbcHCEjIys_hnO1ablEYUvgA_oBo9eqIVbEr4piIDrlzK1VGkcm2Dvq93J0DV9fCEYYNJ1zVf8UM4G3c6nYnhGLxSbwdWhiQAXunS7gqZnUPWG0v7Xx0rxaMX"}
+{"level":"info","time":"2022-02-27T14:28:25.892+0200","file":"services/google.go:75","msg":"TOKEN>> Expiration Time>> 2022-02-27 15:28:24.8927818 +0200 EET m=+3701.086587601"}
+{"level":"info","time":"2022-02-27T14:28:25.892+0200","file":"services/google.go:76","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T14:28:26.045+0200","file":"services/google.go:93","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T14:40:49.934+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T14:40:49.934+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state=thisshouldberandom"}
+{"level":"info","time":"2022-02-27T14:40:59.890+0200","file":"services/google.go:46","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T14:40:59.891+0200","file":"services/google.go:49","msg":"thisshouldberandom"}
+{"level":"info","time":"2022-02-27T14:40:59.891+0200","file":"services/google.go:57","msg":"4/0AX4XfWg0eekquxNFpk28PCxWF2d8NPm_gJDd5VA8RFEvk2LH12wQWYxKE2Ybu_3DY7WrSA"}
+{"level":"info","time":"2022-02-27T14:41:00.097+0200","file":"services/google.go:74","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-QRjOOKfoh8yGrSQyu7s_J-wNrpKsrK6IaciXlRIWGNl3savHYw2qyifXQYzKZr_19SvNNn1BtRG88gcxNXxZLNIsLM0J30N6qCM0hxanpaQhS_hlNZX476qRQ-v_7r3yAaSFlqnfYn1MHY5ADFROs"}
+{"level":"info","time":"2022-02-27T14:41:00.098+0200","file":"services/google.go:75","msg":"TOKEN>> Expiration Time>> 2022-02-27 15:40:59.0977113 +0200 EET m=+4455.291517101"}
+{"level":"info","time":"2022-02-27T14:41:00.098+0200","file":"services/google.go:76","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T14:41:00.261+0200","file":"services/google.go:93","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T14:42:49.503+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T14:43:12.848+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T14:43:12.848+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T14:43:13.183+0200","file":"services/google.go:46","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T14:43:13.184+0200","file":"services/google.go:49","msg":""}
+{"level":"info","time":"2022-02-27T14:43:13.184+0200","file":"services/google.go:57","msg":"4/0AX4XfWjxyKgmrQL06NLzuNRKtV8gZdOZwaxOPdYAMsqReMfXC9DN87jreuz-ddhNnj6BbQ"}
+{"level":"info","time":"2022-02-27T14:43:13.404+0200","file":"services/google.go:74","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-2afbYGMHDGj6q7yqXjzQcniI4yZ0Jv6syciZ--c4-qhS1GNKDA0DOFS-nLisprbox6827oeeEzXpXgUcG6G7hbnuoXugl_L9TeLFEUHSm7s0tRV7JB48zUaWMKcSMfdP451m1NZ9-_3JV9eBeM5dp"}
+{"level":"info","time":"2022-02-27T14:43:13.404+0200","file":"services/google.go:75","msg":"TOKEN>> Expiration Time>> 2022-02-27 15:43:12.4041099 +0200 EET m=+3622.908436001"}
+{"level":"info","time":"2022-02-27T14:43:13.405+0200","file":"services/google.go:76","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T14:43:13.569+0200","file":"services/google.go:93","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T14:44:28.645+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T14:44:35.544+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T14:44:35.544+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T14:44:35.868+0200","file":"services/google.go:46","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T14:44:35.869+0200","file":"services/google.go:49","msg":""}
+{"level":"info","time":"2022-02-27T14:44:35.869+0200","file":"services/google.go:57","msg":"4/0AX4XfWisgS4sO-ElMO9ypJ4pIISsZ_433cCUEm7ZVQKm-qkEPIcSaxTFEThLZ7d1z_lt_A"}
+{"level":"info","time":"2022-02-27T14:44:36.086+0200","file":"services/google.go:74","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM9SPDne5D-8wQON5IuHqxVK9oYkTSrE1l8WcurOITXMS5RW2lb2PTbIdVor5QW15TNIxwcdzf_JK1miVCR5yIvXTj_bb8OJsAj6yJRO8el86ripVvOciLbdkseQYjAZSs7Se5uUbs2wnApF-Ji_6v6h"}
+{"level":"info","time":"2022-02-27T14:44:36.086+0200","file":"services/google.go:75","msg":"TOKEN>> Expiration Time>> 2022-02-27 15:44:35.086889 +0200 EET m=+3606.446119201"}
+{"level":"info","time":"2022-02-27T14:44:36.087+0200","file":"services/google.go:76","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T14:44:36.238+0200","file":"services/google.go:93","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T14:46:52.037+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T14:47:05.504+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T14:47:05.504+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T14:47:05.873+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T14:47:05.873+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-27T14:47:05.874+0200","file":"services/google.go:59","msg":"4/0AX4XfWh5Ef7_XMeFDIEqhMTZHh0MpZ0GhSR8RNkXnZCbUy9X97NGWABJO2sMrh2B7ScC-Q"}
+{"level":"info","time":"2022-02-27T14:47:06.101+0200","file":"services/google.go:78","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-nHLYxxjw8ZUzfUxa0HzjL0b90sJpWo49cwqDuXjJHGuGNx3S0Jnf1cqHYq2yrRfY_JJ1MW-6JzjoJq1F_uURVsBBZZvUOIXfLxE8l3o6cgxqixSapA2DEcQGBVStVsnlAzbOUb2fGd0zkHlDSMvhy"}
+{"level":"info","time":"2022-02-27T14:47:06.101+0200","file":"services/google.go:79","msg":"TOKEN>> Expiration Time>> 2022-02-27 15:47:05.1000618 +0200 EET m=+3613.067903301"}
+{"level":"info","time":"2022-02-27T14:47:06.101+0200","file":"services/google.go:80","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T14:47:06.273+0200","file":"services/google.go:97","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T15:04:36.772+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T15:06:48.281+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T15:06:48.281+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T15:06:48.607+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T15:06:48.608+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-27T15:06:48.608+0200","file":"services/google.go:59","msg":"4/0AX4XfWhNGcvWBPyePYgFuOVIa-22WViXZ1h9RngmMNu-idoV9gkxJfoLSgi_G1u2y182MQ"}
+{"level":"info","time":"2022-02-27T15:06:48.847+0200","file":"services/google.go:78","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM9UVhbAm1N8zi3P9C4pBZgVCB0sdLHCfLy4sLWW5hRW83t9M7gfmyMY7oknaL5W1-GMSuHjAg__zf3O5QLcu6rPj5P2euH99vx6xq32Wt3IAd_HKA4vCXhJFgMTw-XE_siaKjnb1OyaNCvFGyhkZCHf"}
+{"level":"info","time":"2022-02-27T15:06:48.847+0200","file":"services/google.go:79","msg":"TOKEN>> Expiration Time>> 2022-02-27 16:06:47.8463816 +0200 EET m=+3731.078367401"}
+{"level":"info","time":"2022-02-27T15:06:48.847+0200","file":"services/google.go:80","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T15:06:49.014+0200","file":"services/google.go:97","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T15:07:37.860+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T15:09:37.641+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T15:09:37.641+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T15:09:48.823+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T15:09:48.824+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-27T15:09:48.824+0200","file":"services/google.go:59","msg":"4/0AX4XfWggW3y8DE5sjzyGsnCWHzywmkJ9v9X-sz3-xqoXTfX7N3l1WGrvLoZiH_lbMvyc4g"}
+{"level":"info","time":"2022-02-27T15:09:49.046+0200","file":"services/google.go:78","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM89z1eGth-jA6lr0wrN59KBChWnjxL6oCgiph1xYIVetlTRpfdmY6NuU-lHjOzXuD3W8DuiuFuOTiM0euvWdMtYDK2GBUDEd_Z2TimQoq0gaZsbyybesib30fOmPgVRRUnuvbi6TxmNV4Rc4tcQZGf0"}
+{"level":"info","time":"2022-02-27T15:09:49.046+0200","file":"services/google.go:79","msg":"TOKEN>> Expiration Time>> 2022-02-27 16:09:48.0455314 +0200 EET m=+3730.189429401"}
+{"level":"info","time":"2022-02-27T15:09:49.046+0200","file":"services/google.go:80","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T15:09:49.208+0200","file":"services/google.go:97","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T15:22:18.700+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T15:27:49.608+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T15:27:49.609+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T15:27:49.935+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T15:27:49.936+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-27T15:27:49.936+0200","file":"services/google.go:59","msg":"4/0AX4XfWgsPt-_AwTkEDVtR8OD_VZURi1RkhxeQi3AvzZ9KoZNCI-hFWiB_6Rh0WPunzHb7Q"}
+{"level":"info","time":"2022-02-27T15:27:50.152+0200","file":"services/google.go:78","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_9urKgHFP9sBBMiSagZNr10iYwB1MO7D5vXrcUMBM4dloLdFhYsKWzmtPAh2KydWbMTAVWvvXyzPx3Hi4Vk4lEWrnpq08ypmnOikxU46I2rCaiOaBoUedlCYNSk50Gq7L7T3tG_FykqJ6GE5fH8r-qBTFhMrqX"}
+{"level":"info","time":"2022-02-27T15:27:50.152+0200","file":"services/google.go:79","msg":"TOKEN>> Expiration Time>> 2022-02-27 16:27:49.1515968 +0200 EET m=+3930.456322601"}
+{"level":"info","time":"2022-02-27T15:27:50.152+0200","file":"services/google.go:80","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T15:27:50.319+0200","file":"services/google.go:97","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T15:36:26.392+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T15:40:59.214+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T15:40:59.214+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T15:40:59.533+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T15:40:59.533+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-27T15:40:59.534+0200","file":"services/google.go:59","msg":"4/0AX4XfWiLYXWhF7M8xogu8aqLowk46diODjAgQS2a-eAXFtzw1DjAGvadSgtbzASUxOSIEw"}
+{"level":"info","time":"2022-02-27T15:40:59.764+0200","file":"services/google.go:80","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-uXt1Ji7hOGyDaAQ-LxBn0Ev8dYq7vret4hH12AsATTHm6N6dtIDeloNXGbs4bTO8NjfQ7MWeQ7RTrlrJG8-AvxhjPhJvEQ4zl-S-iyR6J13IGPKqMiNwP2gKyz3NuP9256-W5LpSLKRYTJ9lLwRCDlBTCnRp4"}
+{"level":"info","time":"2022-02-27T15:40:59.765+0200","file":"services/google.go:81","msg":"TOKEN>> Expiration Time>> 2022-02-27 16:40:58.7634497 +0200 EET m=+3872.375960601"}
+{"level":"info","time":"2022-02-27T15:40:59.765+0200","file":"services/google.go:82","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T15:40:59.926+0200","file":"services/google.go:99","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T15:44:36.044+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T15:44:46.254+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T15:44:46.254+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T15:44:46.559+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T15:44:46.559+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-27T15:44:46.560+0200","file":"services/google.go:59","msg":"4/0AX4XfWj1UwE2o7VVlsJPR3hPhv2NIc_7KtWvGeOkL8DCLx6rz_xC_OFjeXZRQxZbZSEBAA"}
+{"level":"info","time":"2022-02-27T15:44:46.789+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_-KWrDYP7kHo2Hm4q_YLKNsFZO7_yJgXm92n-Ro6z9LULgqLVrmKWbOKzJ_3Uqju3erJnMijhsRJs6ddlwylKkeQMQUXuYaj_Q5rWWks2Mfj1KY5Xl2i_shF6lAiExsQXZ9lSGsBPzDbOK61j4GAYXPmhKQOQ8"}
+{"level":"info","time":"2022-02-27T15:44:46.790+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-02-27 16:44:45.7880923 +0200 EET m=+3609.749147101"}
+{"level":"info","time":"2022-02-27T15:44:46.790+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T15:44:46.953+0200","file":"services/google.go:100","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T15:45:42.566+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T15:45:42.566+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T15:45:53.729+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T15:45:53.729+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-27T15:45:53.729+0200","file":"services/google.go:59","msg":"4/0AX4XfWgsIbLibXWeqas3oaGt_Y4Tnz63J94ctK3JFh3JmcaHO2_IUxnhLI1qca2Xw7gHUA"}
+{"level":"info","time":"2022-02-27T15:45:53.835+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM--Yu75wGIwZtvS7VyV5L3a_CtyeDoMfJmtFINk-Z-_5qwFN7AZovFVGMC3F6-Yu4AP6PjT0rChEFAwtDotBcvtOzFpSiUsV6FmBb1v4vmoEPIQZr9fvs4we2wyN5PhdAgDQcYPDM-09EKIkr7o-8B0"}
+{"level":"info","time":"2022-02-27T15:45:53.836+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-02-27 16:45:52.8351135 +0200 EET m=+3676.796168301"}
+{"level":"info","time":"2022-02-27T15:45:53.836+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T15:45:53.904+0200","file":"services/google.go:100","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T15:47:20.767+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T15:48:07.448+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T15:48:07.448+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T15:48:38.062+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T15:48:38.062+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-27T15:48:38.062+0200","file":"services/google.go:59","msg":"4/0AX4XfWjuAkx7Nj9kwrWVmjflJQdPhA3me3pIsTscxQZ-Ed33-x3dzo4Wt7WWQ6Y5uiMsWA"}
+{"level":"info","time":"2022-02-27T15:48:38.296+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-Ps_gQYaodQqNyucxPurbVdYpZW1ulr7IQfbGHha5AkZhemn2c8jVT5ijJ-L0YZOQ6Ojj8iZrYR6T9qeyOScyzE_kmUBRhDe4o3tiCKTsn4t0-R8r0OEI1BqQtcPX3i0haJ2NQvCSQKr7Vj2efE53U"}
+{"level":"info","time":"2022-02-27T15:48:38.296+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-02-27 16:48:37.2959296 +0200 EET m=+3676.533176801"}
+{"level":"info","time":"2022-02-27T15:48:38.297+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T15:48:38.468+0200","file":"services/google.go:100","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T16:03:40.329+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-27T16:04:03.732+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-27T16:04:03.733+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-27T16:04:04.071+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T16:04:04.072+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-27T16:04:04.072+0200","file":"services/google.go:59","msg":"4/0AX4XfWgX_H2ND7lG7DXrxjm1c0Vl9zShg1GDZjLp28bkhoTxK2Vo94zJaIXii-WPZ_OOdA"}
+{"level":"info","time":"2022-02-27T16:04:04.300+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM8IIjH8TOjl4YBKEfgbZo5McZ9_7fzfOgV86DBLCWNLyqjnHD4_dm71uX5903_ybbfLUCY-tpinbNG4UtiEJcWjFgQgq5yplJjqUhkR0Qn0VDNyaT6lf9u0KdnwYui8zph6riO0aA9xs2pL6tXPiaTmu-7uziul"}
+{"level":"info","time":"2022-02-27T16:04:04.301+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-02-27 17:04:03.3002861 +0200 EET m=+3622.974920001"}
+{"level":"info","time":"2022-02-27T16:04:04.301+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-27T16:04:04.468+0200","file":"services/google.go:105","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-27T22:39:08.172+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-27T22:39:08.173+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-27T22:39:08.173+0200","file":"services/google.go:59","msg":"4/0AX4XfWionezOBpmom03wBnyBhGeBsm81NjZUQCbUxhiRpIfNu8gnrqKPYWrxrznZQO8L5A"}
+{"level":"error","time":"2022-02-27T22:39:08.327+0200","file":"services/google.go:78","msg":"oauthConfGl.Exchange() failed with oauth2: cannot fetch token: 400 Bad Request\nResponse: {\n  \"error\": \"invalid_grant\",\n  \"error_description\": \"Bad Request\"\n}\n"}
+{"level":"info","time":"2022-02-28T08:59:57.521+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-28T08:59:57.522+0200","file":"services/google.go:51","msg":"thisshouldberandom"}
+{"level":"info","time":"2022-02-28T08:59:57.523+0200","file":"services/google.go:53","msg":"invalid oauth state, expected , got thisshouldberandom\n"}
+{"level":"info","time":"2022-02-28T19:59:07.595+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-28T20:00:07.204+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-28T20:00:07.204+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-28T20:00:17.488+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-28T20:00:17.488+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-28T20:00:17.488+0200","file":"services/google.go:59","msg":"4/0AX4XfWhh7uqjcqDyIYkkfPX1D8x_mVjwBNs2UfUM-Mpo3aDEc5RQmQwQ6Lx_2l5724pMSg"}
+{"level":"info","time":"2022-02-28T20:00:17.678+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM85ADy5YSYmZvWLCcEZnuvyRwMA6CPNLjcVxOQ_7JEamRPdB0H7chqmUAz1rqZFaiRB0whSb9OyTLNHsQSMEH_f2V_X46ezlRRZVaZ_Ck2m3Lja0rLjYKAFfPNt254DltVTaITe5QgVka5eCQ_52dRC"}
+{"level":"info","time":"2022-02-28T20:00:17.678+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-02-28 21:00:16.6773817 +0200 EET m=+3669.090296901"}
+{"level":"info","time":"2022-02-28T20:00:17.679+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-28T20:00:17.798+0200","file":"services/google.go:105","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-02-28T20:19:42.702+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-02-28T20:19:53.442+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-28T20:19:53.443+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-28T20:19:53.720+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-28T20:19:53.720+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-28T20:19:53.720+0200","file":"services/google.go:59","msg":"4/0AX4XfWhSXI7_QHuUfBDXLQHPH-xxzsK0z8GtLT-ZhdHyKOJkBf5XfpYBcnahIr5bDhjogg"}
+{"level":"info","time":"2022-02-28T20:19:53.933+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM9_setMcuW-o8Xh8JJKnqt68-U5pTfErnA1a6nwk3l9W8F0e4l0OE2yCi8htjkt4YSoFI1DPndKrLAALmeMHclfY7YIrw-VpOJ61AIB4p0YULaUGnb2LxTMHzx-c1Elcv8s3sFw9YVzODmpkg9v7bCK"}
+{"level":"info","time":"2022-02-28T20:19:53.934+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-02-28 21:19:52.9302538 +0200 EET m=+3610.232553401"}
+{"level":"info","time":"2022-02-28T20:19:53.935+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-28T20:20:08.412+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-28T20:20:08.412+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-28T20:20:08.642+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-28T20:20:08.642+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-28T20:20:08.643+0200","file":"services/google.go:59","msg":"4/0AX4XfWhXUgUy1sfI-41xmKLxxMqIU1ElkNaZVvyet1ma44kHaSi83aVdeufEAVTmVlzzfA"}
+{"level":"info","time":"2022-02-28T20:20:08.735+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM81Ct78H8UlBOcO5-OmlyjTFph_qFuU93yB0m4vrswhBkNEjmFff7SNBh0X8ThUJDHFTv8W6V12HXUxbpXNec2Tl7reqp_HlO8jsiR5PNm4Y05tbB-8t2BcKd1c_E47BsTne3nEClPMcgRDNEXHDAt4"}
+{"level":"info","time":"2022-02-28T20:20:08.736+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-02-28 21:20:07.7335958 +0200 EET m=+3625.035895401"}
+{"level":"info","time":"2022-02-28T20:20:08.736+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-28T20:22:00.078+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-28T20:22:00.078+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-28T20:22:00.416+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-28T20:22:00.416+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-28T20:22:00.416+0200","file":"services/google.go:59","msg":"4/0AX4XfWhJvQDhTTbB6NjHgDRTouHec8uBn_E8wuF_WYT2tRhUasaHUqp15jWIWl4OarwI-A"}
+{"level":"info","time":"2022-02-28T20:22:00.582+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM8bhmSLPhePxikrHqRtOc7VGg1Knn3WCQK3RjqgZh4nfElzWqSIhlRJBNfT341P3JVTfWmeVc1uBTj7jPLkIiilQNlqm1hiogiIy1Jyu_WkJMv8SS5PkoG669hULwAsv8wzuE8XeXZCHzpGT1vEtC5C"}
+{"level":"info","time":"2022-02-28T20:22:00.583+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-02-28 21:21:59.5810295 +0200 EET m=+3736.883329101"}
+{"level":"info","time":"2022-02-28T20:22:00.583+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-28T22:55:29.107+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-28T22:55:29.107+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-28T22:55:29.444+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-28T22:55:29.444+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-28T22:55:29.445+0200","file":"services/google.go:59","msg":"4/0AX4XfWhO4BYwqwFcIA_hiJoMeUA1TTPWsXNxgz-Q_bmxCHu21f85lLzoyBSYvSH3gBdjyQ"}
+{"level":"info","time":"2022-02-28T22:55:29.629+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-UTE4AmlApGq-j4vH8dm1FrYDcJKvJMsRLnfrh2Fz0Tu_G5BNpqRlc3VwMst3M9zMLnQKaQKrqrpftaS_HkCRwXh2Gwb1qNg3j56YuwakhYrcoddfO1XXFRyW1ugiPVXu0WUE10aoEAMD8rnpTTXIU"}
+{"level":"info","time":"2022-02-28T22:55:29.629+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-02-28 23:55:28.6289486 +0200 EET m=+12945.931248201"}
+{"level":"info","time":"2022-02-28T22:55:29.629+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-28T22:56:20.322+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-28T22:56:20.322+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-28T22:56:30.790+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-28T22:56:30.790+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-28T22:56:30.791+0200","file":"services/google.go:59","msg":"4/0AX4XfWgwJkL5n_I-b_jJLzgbAc5OaBnm4F1J2SAAVQEk29McIXDfTyh5wJY8Y1cxCUn4dw"}
+{"level":"info","time":"2022-02-28T22:56:30.896+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_qRWYebDDT5vh2Yoil2erVEj7jBnkCv3mKUwUzvVngwsS7gcwCVH3xfMkloiclXB2RYafVDQLX7jKK-y0lQqy5JyNMnOxx5Ei3J2Bemo3nNuAkT5ocRfjTILYEez6znS9UIEqAT9kJvvOmg7By7svC"}
+{"level":"info","time":"2022-02-28T22:56:30.897+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-02-28 23:56:29.8964328 +0200 EET m=+13007.198732401"}
+{"level":"info","time":"2022-02-28T22:56:30.897+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-02-28T23:59:15.885+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-02-28T23:59:15.885+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-02-28T23:59:16.164+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-02-28T23:59:16.164+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-02-28T23:59:16.165+0200","file":"services/google.go:59","msg":"4/0AX4XfWjokGcZxvHdkfECq1OP1Nho67zdLjKx9i4GNRaLDkgSESLv8BnIKue41mWoLx18lw"}
+{"level":"info","time":"2022-02-28T23:59:16.329+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_sCDD-XzdFXSErzZsR0XwrDj9Au_K_Ls8IXBE31bGEPmwAZdYbGwvFv44Hl_0EpYA4WH6HSMH2rB33eHOTCxSPtzGbIsQ7qoFlLFS9gIFc7YhGPi4ljO7mHrd-1N8d1cu9c5vgwUbsMrej8EKUF1gjzWt8THi-"}
+{"level":"info","time":"2022-02-28T23:59:16.329+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-03-01 00:59:15.3287905 +0200 EET m=+16772.631090101"}
+{"level":"info","time":"2022-02-28T23:59:16.330+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-03-01T06:52:28.405+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-01T06:52:42.299+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-01T06:52:42.300+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-01T06:52:42.679+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-01T06:52:42.679+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-03-01T06:52:42.680+0200","file":"services/google.go:59","msg":"4/0AX4XfWhbMJJ_GDhera2Gu8MG8WXHUWLYHKAyZ1fi0mNQVxFVQzy11UKIdcIZheS5g1k3vw"}
+{"level":"info","time":"2022-03-01T06:52:42.877+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_YbVqvJcWu9f80jARdEQfe36xXsyTfZe93MFEvXdK5CBMWVRvfoMvpG1eRVLyK2QWgIbldpHZd7jjIKlRr046AAABCFjHkR-D56NaJ7dZXLVGYFUmPJlrrA3hMqM23_17kEuzws7w59OroKWDUBEwty70YYZBcpg"}
+{"level":"info","time":"2022-03-01T06:52:42.879+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-03-01 07:52:41.8755833 +0200 EET m=+3613.479365701"}
+{"level":"info","time":"2022-03-01T06:52:42.879+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-03-01T07:14:29.516+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-01T07:14:29.517+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-01T07:14:29.862+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-01T07:14:29.863+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-03-01T07:14:29.864+0200","file":"services/google.go:59","msg":"4/0AX4XfWghLdqixqbQXJyumDG0tlY2FYr-ktW3_B74PIn6r8rGLhxGDXgjIZaIJ3X_7cyylg"}
+{"level":"info","time":"2022-03-01T07:14:30.026+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM9vRSRSyijMojP0NXBqVZd5IGhYk4b1rFl67tiWlCoWpk96wQgOjutu5Vy_EhK5_bxh65IMyfYkt8ioJuM4xlsmJtMq3Sx-PFRNrTwTwpRzl1TKrxHurP1wDSz1LForiNYKaw5mb9ZNIRZZrO79-YjI4BQKhbpVKw"}
+{"level":"info","time":"2022-03-01T07:14:30.027+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-03-01 08:14:29.0257823 +0200 EET m=+4920.629564701"}
+{"level":"info","time":"2022-03-01T07:14:30.027+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-03-01T07:36:23.069+0200","file":"poc-go-oauth2/main.go:32","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-01T07:36:36.637+0200","file":"services/google.go:146","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-01T07:36:36.637+0200","file":"services/google.go:148","msg":""}
+{"level":"info","time":"2022-03-01T07:36:36.637+0200","file":"services/google.go:155","msg":""}
+{"level":"warn","time":"2022-03-01T07:36:36.638+0200","file":"services/google.go:157","msg":"Code not found.."}
+{"level":"info","time":"2022-03-01T07:37:37.045+0200","file":"poc-go-oauth2/main.go:32","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-01T07:37:41.690+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-01T07:37:41.691+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-01T07:37:41.691+0200","file":"services/google.go:147","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-01T07:37:41.692+0200","file":"services/google.go:149","msg":""}
+{"level":"info","time":"2022-03-01T07:37:41.692+0200","file":"services/google.go:156","msg":""}
+{"level":"warn","time":"2022-03-01T07:37:41.692+0200","file":"services/google.go:158","msg":"Code not found.."}
+{"level":"info","time":"2022-03-01T07:37:41.951+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-01T07:37:41.951+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-03-01T07:37:41.951+0200","file":"services/google.go:59","msg":"4/0AX4XfWjqWAb8ewP5qNPjOKOa-OgOlrN9YqV_i5JXeDJMFuC_-N5sLJBgUj21QmigHfsxqg"}
+{"level":"info","time":"2022-03-01T07:37:42.139+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM9Pni1K8K4g_jcp-e75T81HvNNOt5pmsfENYl4XA_WPCv_HvzeAEFN_TvIOy0xuSbyMtY3M4n36Bqve9BGUQtl8M7owLKcGNrz0L21eQvXrvSRHPBWiJvFrEWh2d9DUDNwLvz-Vf0f_kTEYY-zpQ7Pv9kYpVFYIbw"}
+{"level":"info","time":"2022-03-01T07:37:42.140+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-03-01 08:37:41.1389562 +0200 EET m=+3604.098288401"}
+{"level":"info","time":"2022-03-01T07:37:42.140+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-03-01T07:39:55.848+0200","file":"poc-go-oauth2/main.go:29","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T12:10:50.794+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T12:20:21.843+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T12:21:24.166+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-03T12:21:24.166+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-03T12:21:38.953+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-03T12:21:38.953+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-03-03T12:21:38.953+0200","file":"services/google.go:59","msg":"4/0AX4XfWj7_aYOupY5kPBbCY6ux-Mox9S2mGxo7ow3AQR840ThYpOY6Gy-Iw5r02ysB5vXdQ"}
+{"level":"info","time":"2022-03-03T12:21:39.933+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_pLB5smSphDsvc7FSx30MYTgSC51HCr3HVRMBfa1PGSBkxkvNBy2wyXJl4t2tZP30nNtyt-z6BVf5GykBomFY1SRHZBrqJVN7HlyNqG2BLVdcmztvnjCRdCtFeVpJgBRXyO6cN6_FuV0RY_rH0jZtzoRIuVk1cDg"}
+{"level":"info","time":"2022-03-03T12:21:39.934+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-03-03 13:21:38.9311634 +0200 EET m=+3677.093239001"}
+{"level":"info","time":"2022-03-03T12:21:39.935+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-03-03T12:21:40.676+0200","file":"services/google.go:133","msg":"parseResponseBody: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.\",\n    \"status\": \"UNAUTHENTICATED\"\n  }\n}\n\n"}
+{"level":"info","time":"2022-03-03T17:34:59.567+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T17:35:16.849+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-03T17:35:16.850+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-03T17:35:53.203+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-03T17:35:53.203+0200","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-03T17:47:36.742+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T17:48:47.205+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-03T17:48:47.205+0200","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-03T17:49:29.719+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-03T17:49:29.720+0200","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-03T17:49:45.686+0200","file":"services/google.go:48","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-03T17:49:45.686+0200","file":"services/google.go:51","msg":""}
+{"level":"info","time":"2022-03-03T17:49:45.687+0200","file":"services/google.go:59","msg":"4/0AX4XfWhNZApDh9BuW6HstcwLQ9KdtSc_NPQycpvi4ROI4ZGlokQYICn-gRmKbwDtrZrNfw"}
+{"level":"info","time":"2022-03-03T17:49:46.528+0200","file":"services/google.go:81","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_438VfYY8MKMfot4ZF4DuJwaGzwneIkCGD7gyHHI0kwr268d5FFv5-hfNoIYDjXHDyq0zzOYM801UhRAsOpauYOkoRgTId20Xwh4dXjO-9mlJNHJsA_rWpKEpBTwN9EXI6xbG2YsQpbQwfYUmqkvCi"}
+{"level":"info","time":"2022-03-03T17:49:46.528+0200","file":"services/google.go:82","msg":"TOKEN>> Expiration Time>> 2022-03-03 18:49:45.5273027 +0200 EET m=+3728.788904501"}
+{"level":"info","time":"2022-03-03T17:49:46.528+0200","file":"services/google.go:83","msg":"TOKEN>> RefreshToken>> 1//03-MwXnBrLfzBCgYIARAAGAMSNwF-L9IrSEpHNaJxIrIvPW8jl9VvD8rtCOOzhhikSRDwV-uezhWTzmP5b-qocr30ZZ_WOh_rF6I"}
+{"level":"info","time":"2022-03-03T20:42:08.195+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T20:42:29.993+0200","file":"services/google.go:194","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_438VfYY8MKMfot4ZF4DuJwaGzwneIkCGD7gyHHI0kwr268d5FFv5-hfNoIYDjXHDyq0zzOYM801UhRAsOpauYOkoRgTId20Xwh4dXjO-9mlJNHJsA_rWpKEpBTwN9EXI6xbG2YsQpbQwfYUmqkvCi"}
+{"level":"info","time":"2022-03-03T20:42:29.993+0200","file":"services/google.go:195","msg":"TOKEN>> Expiration Time>> 0001-01-01 00:00:00 +0000 UTC"}
+{"level":"info","time":"2022-03-03T20:42:29.993+0200","file":"services/google.go:196","msg":"TOKEN>> RefreshToken>> 1//03-MwXnBrLfzBCgYIARAAGAMSNwF-L9IrSEpHNaJxIrIvPW8jl9VvD8rtCOOzhhikSRDwV-uezhWTzmP5b-qocr30ZZ_WOh_rF6I"}
+{"level":"info","time":"2022-03-03T20:44:30.817+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T20:44:45.618+0200","file":"services/google.go:194","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_438VfYY8MKMfot4ZF4DuJwaGzwneIkCGD7gyHHI0kwr268d5FFv5-hfNoIYDjXHDyq0zzOYM801UhRAsOpauYOkoRgTId20Xwh4dXjO-9mlJNHJsA_rWpKEpBTwN9EXI6xbG2YsQpbQwfYUmqkvCi"}
+{"level":"info","time":"2022-03-03T20:44:45.618+0200","file":"services/google.go:195","msg":"TOKEN>> Expiration Time>> 0001-01-01 00:00:00 +0000 UTC"}
+{"level":"info","time":"2022-03-03T20:44:45.619+0200","file":"services/google.go:196","msg":"TOKEN>> RefreshToken>> 1//03-MwXnBrLfzBCgYIARAAGAMSNwF-L9IrSEpHNaJxIrIvPW8jl9VvD8rtCOOzhhikSRDwV-uezhWTzmP5b-qocr30ZZ_WOh_rF6I"}
+{"level":"info","time":"2022-03-03T21:07:55.100+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T21:08:46.427+0200","file":"services/google.go:196","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_438VfYY8MKMfot4ZF4DuJwaGzwneIkCGD7gyHHI0kwr268d5FFv5-hfNoIYDjXHDyq0zzOYM801UhRAsOpauYOkoRgTId20Xwh4dXjO-9mlJNHJsA_rWpKEpBTwN9EXI6xbG2YsQpbQwfYUmqkvCi"}
+{"level":"info","time":"2022-03-03T21:08:46.427+0200","file":"services/google.go:197","msg":"TOKEN>> Expiration Time>> 0001-01-01 00:00:00 +0000 UTC"}
+{"level":"info","time":"2022-03-03T21:08:46.427+0200","file":"services/google.go:198","msg":"TOKEN>> RefreshToken>> 1//03-MwXnBrLfzBCgYIARAAGAMSNwF-L9IrSEpHNaJxIrIvPW8jl9VvD8rtCOOzhhikSRDwV-uezhWTzmP5b-qocr30ZZ_WOh_rF6I"}
+{"level":"info","time":"2022-03-03T21:09:30.250+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T21:09:40.362+0200","file":"services/google.go:196","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_438VfYY8MKMfot4ZF4DuJwaGzwneIkCGD7gyHHI0kwr268d5FFv5-hfNoIYDjXHDyq0zzOYM801UhRAsOpauYOkoRgTId20Xwh4dXjO-9mlJNHJsA_rWpKEpBTwN9EXI6xbG2YsQpbQwfYUmqkvCi"}
+{"level":"info","time":"2022-03-03T21:09:40.363+0200","file":"services/google.go:197","msg":"TOKEN>> Expiration Time>> 0001-01-01 00:00:00 +0000 UTC"}
+{"level":"info","time":"2022-03-03T21:09:40.363+0200","file":"services/google.go:198","msg":"TOKEN>> RefreshToken>> 1//03-MwXnBrLfzBCgYIARAAGAMSNwF-L9IrSEpHNaJxIrIvPW8jl9VvD8rtCOOzhhikSRDwV-uezhWTzmP5b-qocr30ZZ_WOh_rF6I"}
+{"level":"info","time":"2022-03-03T22:58:30.119+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T22:59:50.879+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:03:34.022+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:05:02.134+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:11:01.990+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:12:01.647+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-03T23:12:01.648+0200","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-03T23:12:38.857+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-03T23:12:38.857+0200","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-03T23:12:39.290+0200","file":"services/google.go:49","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-03T23:12:39.291+0200","file":"services/google.go:52","msg":""}
+{"level":"info","time":"2022-03-03T23:12:39.292+0200","file":"services/google.go:60","msg":"4/0AX4XfWgzaMCUrzFn_ZabuOASJL1JhOvX1bl6KqZsyhxJou_M_omBXKxgZljnlzq7K9huuA"}
+{"level":"info","time":"2022-03-03T23:12:39.801+0200","file":"services/google.go:83","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-8-I8G8-R9TnY-YeYKSGL6n3BZhQ9Cf98G5pQIn00e_WJtNzxO0dJsYjSdihSqTWNLA0mTBgxu7FBADXXBhFVD9bP6HDvlKLWQzR_NY2hgikxeLxJKEPOAM1s03-dyIihjx2j0iw9if_pVgJEP7oaR2nzTTVbsuQ"}
+{"level":"info","time":"2022-03-03T23:12:39.801+0200","file":"services/google.go:84","msg":"TOKEN>> Expiration Time>> 2022-03-04 00:12:38.8003304 +0200 EET m=+3696.813637601"}
+{"level":"info","time":"2022-03-03T23:12:39.802+0200","file":"services/google.go:85","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-03-03T23:13:51.276+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-03T23:13:51.276+0200","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-03T23:13:51.653+0200","file":"services/google.go:49","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-03T23:13:51.654+0200","file":"services/google.go:52","msg":""}
+{"level":"info","time":"2022-03-03T23:13:51.655+0200","file":"services/google.go:60","msg":"4/0AX4XfWiNAv14Iwy_6VklZ-XxPhnYbBthzC-aF4OOuIdfWKtC2AKY4qyVJBN3WnT0JdMkDA"}
+{"level":"info","time":"2022-03-03T23:13:51.860+0200","file":"services/google.go:83","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-LTi1E-UZdgGuPVaGwgJ7CZt-1lBE9umiFP-QmK01AtV_N7ZWHjniQa12MUZfheWOWkevI_yydnqPk8K0slKzspVGHizHkfsRv8ciOoRx5bSyJ61FL1ziQhNYLqGo5XzqUqSvsQ5Qrpz3NKN51e2kcEs8eUwNe9g"}
+{"level":"info","time":"2022-03-03T23:13:51.861+0200","file":"services/google.go:84","msg":"TOKEN>> Expiration Time>> 2022-03-04 00:13:50.8580475 +0200 EET m=+3768.871354701"}
+{"level":"info","time":"2022-03-03T23:13:51.862+0200","file":"services/google.go:85","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-03-03T23:15:07.531+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-03T23:15:07.531+0200","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-03T23:15:17.102+0200","file":"services/google.go:49","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-03T23:15:17.102+0200","file":"services/google.go:52","msg":""}
+{"level":"info","time":"2022-03-03T23:15:17.102+0200","file":"services/google.go:60","msg":"4/0AX4XfWh0JZaf5a3hTL7eQjQ8GZBmRh--qUYNVJaWlDGvWzbH0lZChcXk-5im72UrD9oRNw"}
+{"level":"info","time":"2022-03-03T23:15:17.294+0200","file":"services/google.go:83","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM9RvD925AbLPs7J-rOSaWaaPo2iLROFkeoQsVqecc_H-1PGa74AkV3jkd_I027IYgenWa2rEt0ioSrM5KiCsc8eJx027-oleEYpGE6lC7WlaY7jHL4V9TTAjgSO1g-OTC5p-g2dbQSQSXqDv9fBm7c0"}
+{"level":"info","time":"2022-03-03T23:15:17.295+0200","file":"services/google.go:84","msg":"TOKEN>> Expiration Time>> 2022-03-04 00:15:16.2933394 +0200 EET m=+3854.306646601"}
+{"level":"info","time":"2022-03-03T23:15:17.295+0200","file":"services/google.go:85","msg":"TOKEN>> RefreshToken>> 1//09qmPgvgGbUoCCgYIARAAGAkSNwF-L9IrmLSM9yBrxsOOYVnboyFoZA2aDCdR2sXAjcZfIVG0EOBfyxXpOhq6v30Oxgo33veW04g"}
+{"level":"info","time":"2022-03-03T23:18:08.132+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:19:44.158+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:23:16.499+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:24:07.164+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:24:38.501+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:25:33.738+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:27:26.935+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:49:33.047+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:50:13.932+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:51:27.104+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:52:45.330+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:54:03.626+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:58:43.753+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-03T23:59:48.740+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T00:00:53.043+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T00:02:54.944+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T00:37:32.978+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T00:38:08.853+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"error","time":"2022-03-04T00:38:40.300+0200","file":"services/google.go:195","msg":"Post \"https://accounts.google.com/o/oauth2/token\": dial tcp 172.217.16.13:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"level":"info","time":"2022-03-04T08:43:12.208+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T09:13:36.580+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T09:19:53.952+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-04T09:19:53.953+0200","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-04T09:20:04.660+0200","file":"services/google.go:50","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-04T09:20:04.661+0200","file":"services/google.go:53","msg":""}
+{"level":"info","time":"2022-03-04T09:20:04.661+0200","file":"services/google.go:61","msg":"4/0AX4XfWjGfKG_WBVs8TEuuSz9sibhjfD6HkUIK3Lkp4ghY5Yadw2BJ91th5KKl5XVCyn2_Q"}
+{"level":"info","time":"2022-03-04T09:20:05.057+0200","file":"services/google.go:84","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM_gH7UNk-k4mJhsawLkzvR4dbLDcivpfVj3JMbHTYBdXrTWtbwPiQov9T2NGHP2Whg4fB87ESpAWBLxY10DsJawQi6D0WgVimcZ_MAYP12CFzBwSuejzg2u9sxGEDvbKrg05SN_OPTMTtQd340Oysl6"}
+{"level":"info","time":"2022-03-04T09:20:05.057+0200","file":"services/google.go:85","msg":"TOKEN>> Expiration Time>> 2022-03-04 10:20:04.0566765 +0200 EET m=+3987.480512201"}
+{"level":"info","time":"2022-03-04T09:20:05.057+0200","file":"services/google.go:86","msg":"TOKEN>> RefreshToken>> 1//0cZmVvcM7DcuFCgYIARAAGAwSNwF-L9IrW6YoG9oV2j2Ojtz-ZK-2yUmkoZJfTnzW3q_bwxotMmtWvE3ikR78IMXItrAj1wk2SzM"}
+{"level":"info","time":"2022-03-04T09:20:55.359+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-04T09:20:55.359+0200","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-04T09:21:03.447+0200","file":"services/google.go:50","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-04T09:21:03.447+0200","file":"services/google.go:53","msg":""}
+{"level":"info","time":"2022-03-04T09:21:03.447+0200","file":"services/google.go:61","msg":"4/0AX4XfWiklsYBxOBAfPH_CQuho0hmtUL0ImFl2HzclCgj0mtFg_rvsei39Pze3PpsqNx2tQ"}
+{"level":"info","time":"2022-03-04T09:21:03.595+0200","file":"services/google.go:84","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-WKKSA5x1MdvGQJWVOeMXDr4iIV4fUYMDZ0EZtaHRgf6rqM6EXyYaPC5XegNB2pUtuG3DZURUom8PBW52I9X7lthO0KiAZJRJRVBtJdjgOfcbzBputAwPCZnbi2OBl4P2cHKtNwGalfUcLjTyRoLbJ"}
+{"level":"info","time":"2022-03-04T09:21:03.597+0200","file":"services/google.go:85","msg":"TOKEN>> Expiration Time>> 2022-03-04 10:21:02.5934823 +0200 EET m=+4046.017318001"}
+{"level":"info","time":"2022-03-04T09:21:03.598+0200","file":"services/google.go:86","msg":"TOKEN>> RefreshToken>> 1//0cmH3IpCSiQMSCgYIARAAGAwSNwF-L9IrStCw8jdemPkjS-dyeMVKh8jjW7z0y4jp-njauyOGJsnq4qf4rvZ9w0htXPMpcSzQHn8"}
+{"level":"info","time":"2022-03-04T12:16:45.885+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T12:17:38.585+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T12:19:02.507+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T12:26:32.455+0200","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T12:32:30.412+0200","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-04T12:32:30.412+0200","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-04T12:32:43.200+0200","file":"services/google.go:50","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-04T12:32:43.200+0200","file":"services/google.go:53","msg":""}
+{"level":"info","time":"2022-03-04T12:32:43.201+0200","file":"services/google.go:61","msg":"4/0AX4XfWjdQs30Y3gNvG_u5CGNJkD7HpYo7d5i2WulVnyRboFlVr34gxRGn4NuUvIEROI3Dg"}
+{"level":"info","time":"2022-03-04T12:32:44.295+0200","file":"services/google.go:84","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-HUkbFm0jT8IoteTHJyL_9VFyh71ICJxgiSRsuW2mV91rfmhBrbPb1tRpo4vVzuFovuv5VPVe-klfAEGUNZ3VdS1jah3_tVyR1lpKj617wcdkMsKPQ7Sz_oPBWJzu1IXW8zWz7FzjVFoZirw8w5Xtc"}
+{"level":"info","time":"2022-03-04T12:32:44.295+0200","file":"services/google.go:85","msg":"TOKEN>> Expiration Time>> 2022-03-04 13:32:43.2945558 +0200 EET m=+3970.842971701"}
+{"level":"info","time":"2022-03-04T12:32:44.296+0200","file":"services/google.go:86","msg":"TOKEN>> RefreshToken>> 1//03DywlG0-VoPnCgYIARAAGAMSNwF-L9Irl5GbfZ48dVNq3TClhjZoXqVrDEce-E2rYRVX-dmt9zKuYrGwcOyv8nBDtJh8LXMRavs"}
