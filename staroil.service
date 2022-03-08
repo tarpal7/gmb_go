@@ -1,0 +1,14 @@
+[Unit]
+Description=Service StarOil
+After=network.target
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=5
+
+WorkingDirectory=/home/back_staroil
+ExecStart=!!/home/back_staroil/main
+
+[Install]
+WantedBy=multi-user.target
