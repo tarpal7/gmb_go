@@ -1,0 +1,128 @@
+{"level":"info","time":"2022-03-04T12:13:29.942+0100","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T12:13:38.654+0100","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-04T12:13:38.654+0100","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-04T12:13:40.642+0100","file":"services/google.go:50","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-04T12:13:40.642+0100","file":"services/google.go:53","msg":""}
+{"level":"info","time":"2022-03-04T12:13:40.642+0100","file":"services/google.go:61","msg":"4/0AX4XfWhFHN0CZ3EYjraRZ_AVwV2fJCFVA-Cb_8mwEfoCLQ61TZU4WIE9XDlubABlU5Xa-A"}
+{"level":"info","time":"2022-03-04T12:13:41.027+0100","file":"services/google.go:84","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM9HoCG5EykjofgBLEmG_JmJnafEe9yAv2KME3SZ7OzKoVKmBmdrTz2jWB1yHQMkRml7bs7pldPxfcS0GvS3qxgnE-Rs3g30aMTMOwOT4eOJfxDxf5R2APuyeg4ZzkUr_P61kXnn9XsFiNAUGravS99DTw"}
+{"level":"info","time":"2022-03-04T12:13:41.027+0100","file":"services/google.go:85","msg":"TOKEN>> Expiration Time>> 2022-03-04 13:13:40.027029 +0100 CET m=+3610.085981785"}
+{"level":"info","time":"2022-03-04T12:13:41.027+0100","file":"services/google.go:86","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-03-04T12:14:25.397+0100","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-04T12:14:25.397+0100","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-04T12:14:27.033+0100","file":"services/google.go:50","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-04T12:14:27.033+0100","file":"services/google.go:53","msg":""}
+{"level":"info","time":"2022-03-04T12:14:27.033+0100","file":"services/google.go:61","msg":"4/0AX4XfWicgtZTN41U1k6I20agcR77e4GnIrk8SD13fUzo-O6lXoMeS10NR--trhu56KCLeg"}
+{"level":"info","time":"2022-03-04T12:14:27.147+0100","file":"services/google.go:84","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM8ewxqC1DUI77TyGPEjExBkIM5Kdon7Y1iXMAdFrEP0fLr1uE146hOv0egXYwMgI2kghNn-sYroddZsmHR6djvuan75JYgRaKURoRE0MqbAdtS75IYQhiucI_34WUXEWdTLu8yjc3Ol0_Z2TG47mk32QQ"}
+{"level":"info","time":"2022-03-04T12:14:27.147+0100","file":"services/google.go:85","msg":"TOKEN>> Expiration Time>> 2022-03-04 13:14:26.147631 +0100 CET m=+3656.205992079"}
+{"level":"info","time":"2022-03-04T12:14:27.147+0100","file":"services/google.go:86","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-03-04T12:14:57.247+0100","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-04T12:15:43.052+0100","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-04T12:15:43.052+0100","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-04T12:15:52.714+0100","file":"services/google.go:50","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-04T12:15:52.714+0100","file":"services/google.go:53","msg":""}
+{"level":"info","time":"2022-03-04T12:15:52.714+0100","file":"services/google.go:61","msg":"4/0AX4XfWgxPo2AeqfW0aZtKV88qgdjlZbEfX0-OYsgf1_DeZ0q1x1kl7VAZ8eYQaj5z9R1qA"}
+{"level":"info","time":"2022-03-04T12:15:52.853+0100","file":"services/google.go:84","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM8NtFpOQTMYjmpgHx91AINBVKoJzVtQN60WbenzeEFzxtVknHm37jnxcVYEoRc5B1xfuhCM5FSooLKnFKCNzRzx3CAa0Y7R28SHBGYjfufnMU-Brf4f5QE6ohYjN2ApTcM7jY_mjEwPr6VgXfKMcoOZ"}
+{"level":"info","time":"2022-03-04T12:15:52.853+0100","file":"services/google.go:85","msg":"TOKEN>> Expiration Time>> 2022-03-04 13:15:51.853432 +0100 CET m=+3654.606884640"}
+{"level":"info","time":"2022-03-04T12:15:52.853+0100","file":"services/google.go:86","msg":"TOKEN>> RefreshToken>> 1//039v5SdA6I3mbCgYIARAAGAMSNwF-L9IrDS72hzX1skpHQOu9ZjhVhExwVt9KPUTWN37TmNAWJS3NC9K8Q8kLCGrtjwtvqCIAFNY"}
+{"level":"info","time":"2022-03-07T09:37:04.127+0100","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T09:37:16.540+0100","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-07T09:37:16.540+0100","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-07T09:37:26.405+0100","file":"services/google.go:50","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-07T09:37:26.406+0100","file":"services/google.go:53","msg":""}
+{"level":"info","time":"2022-03-07T09:37:26.406+0100","file":"services/google.go:61","msg":"4/0AX4XfWjOOdkcISz_3xGyxjdt4s1eG1TwOfnmRW_PwpWZdannK1jK5308uG7Y_uEi-lf74Q"}
+{"level":"info","time":"2022-03-07T09:37:26.729+0100","file":"services/google.go:84","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM8lurcldZThLLtCWHo6DoHZX1E9KsfeDr-5BtVGy0aVBo3riH-cxSQJiU1vVIBHw_7dD0ry4P4zURb1SrI5563KqUWtA_6TX-SNGu0YbzgDQHgEowcwVrhqXoIo8jtoIN62mcbvrYJd3fos_uaigWDT"}
+{"level":"info","time":"2022-03-07T09:37:26.729+0100","file":"services/google.go:85","msg":"TOKEN>> Expiration Time>> 2022-03-07 10:37:25.729678 +0100 CET m=+3621.604556719"}
+{"level":"info","time":"2022-03-07T09:37:26.729+0100","file":"services/google.go:86","msg":"TOKEN>> RefreshToken>> 1//03fMDnN06eoEICgYIARAAGAMSNwF-L9Ir4Wr7RHaZrG__r6x2vVndQePrguVWNpGkr1MbfkNYllnu-lMs-7euQTqEMGYXEWZmB8g"}
+{"level":"info","time":"2022-03-07T10:30:40.452+0100","file":"poc-go-oauth2/main.go:31","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T10:31:04.374+0100","file":"poc-go-oauth2/main.go:33","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T10:31:20.947+0100","file":"poc-go-oauth2/main.go:33","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T10:31:58.061+0100","file":"poc-go-oauth2/main.go:33","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T10:36:36.267+0100","file":"poc-go-oauth2/main.go:33","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T10:37:45.125+0100","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-07T10:37:45.125+0100","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-07T10:37:45.424+0100","file":"services/google.go:52","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-07T10:37:45.424+0100","file":"services/google.go:55","msg":""}
+{"level":"info","time":"2022-03-07T10:37:45.424+0100","file":"services/google.go:63","msg":"4/0AX4XfWhYepXbqL1_bYvTmmJeuIjpcVoXLw4nzTiSLTUrprnA7qCVDcBNOb6-n-lD2K_p_A"}
+{"level":"info","time":"2022-03-07T10:37:45.569+0100","file":"services/google.go:86","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-WsaADYwCtwr0wXT91T0a8T_Gv3Pd77LdHD8dEKNKsMjAjbT_0FvXN5aHDr_voSl3F9pQpU38gv8fRbzrdopfcjfLip3p_Tb1Y0Jjv-sa3zM6p0FSiOe3iTVDvd6IaxF_KiC3nmFMN6bcG9UZkxDwu"}
+{"level":"info","time":"2022-03-07T10:37:45.570+0100","file":"services/google.go:87","msg":"TOKEN>> Expiration Time>> 2022-03-07 11:37:44.569421 +0100 CET m=+3668.303729060"}
+{"level":"info","time":"2022-03-07T10:37:45.570+0100","file":"services/google.go:88","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-03-07T10:44:00.964+0100","file":"poc-go-oauth2/main.go:33","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T10:44:38.749+0100","file":"poc-go-oauth2/main.go:33","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T10:45:22.043+0100","file":"poc-go-oauth2/main.go:33","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T10:45:42.924+0100","file":"poc-go-oauth2/main.go:33","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T10:48:52.652+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T10:55:38.538+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T11:00:07.415+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T11:00:52.375+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T11:01:58.880+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T11:07:29.246+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T11:12:35.382+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T11:24:57.031+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T11:27:15.524+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T12:32:02.538+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T12:32:57.833+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T12:41:47.414+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T12:42:24.079+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T12:43:51.301+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T12:44:17.545+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T12:51:58.860+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T12:54:01.234+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T13:04:38.914+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T13:06:04.874+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T13:07:49.172+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T13:09:43.794+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T13:10:38.328+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T13:11:06.443+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T13:11:18.293+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T13:12:45.571+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-07T13:13:13.128+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:23:22.749+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:23:35.019+0100","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-08T10:23:35.020+0100","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-08T10:23:42.326+0100","file":"services/google.go:54","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-08T10:23:42.326+0100","file":"services/google.go:57","msg":""}
+{"level":"info","time":"2022-03-08T10:23:42.326+0100","file":"services/google.go:65","msg":"4/0AX4XfWha02-rTTYk1KHg79g984sB1OJ_GKvkiaJlflEwknnSDpXHFQmSZh139UXdhUdsrg"}
+{"level":"info","time":"2022-03-08T10:23:42.662+0100","file":"services/google.go:88","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM8Mlef9WLfzbax2iLfSpo71fBx5GpL7nrwYhd0dsoaZQP9n01zM7ivQvTPjY9bCpiQ0viAfsb8Or8hir5q9KGbc-awuq183My7pnjXzNspJOCi7bafgzWL1HbJbbRg0Cxou8rOxZL3JbYLbKd_pKGlO"}
+{"level":"info","time":"2022-03-08T10:23:42.662+0100","file":"services/google.go:89","msg":"TOKEN>> Expiration Time>> 2022-03-08 11:23:41.662323 +0100 CET m=+3618.914162410"}
+{"level":"info","time":"2022-03-08T10:23:42.662+0100","file":"services/google.go:90","msg":"TOKEN>> RefreshToken>> 1//03kgRkuPdwb_5CgYIARAAGAMSNwF-L9Ir_HQpYzr6Wzj5T6XoM6ELdpST7PiKWuLWej8q1HVAv3Klo996HMYS8v3cKJQePFOKMyg"}
+{"level":"info","time":"2022-03-08T10:33:06.249+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:33:54.261+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:34:55.314+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:41:36.083+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:42:50.658+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:43:02.999+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:45:43.504+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:49:15.172+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:51:05.745+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:51:25.065+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-08T10:51:41.896+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-09T09:24:55.632+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-09T09:25:15.905+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-09T09:28:04.076+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-09T09:28:24.856+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-09T09:34:11.234+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-16T11:50:58.204+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-18T12:28:11.908+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-18T12:28:28.576+0100","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-18T12:28:28.576+0100","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-21T12:59:52.980+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-21T12:59:57.560+0100","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-21T12:59:57.560+0100","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-21T13:00:44.130+0100","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-21T13:00:44.130+0100","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-21T13:00:58.833+0100","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-03-21T13:00:58.834+0100","file":"services/common.go:43","msg":"https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_promp=force&client_id=363431665496-2dim6sk8rq08io7d7u61ta5t9ouadsr5.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3001%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.business.manage+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbusiness.manage&state="}
+{"level":"info","time":"2022-03-21T13:01:06.077+0100","file":"services/google.go:100","msg":"Callback-gl.."}
+{"level":"info","time":"2022-03-21T13:01:06.077+0100","file":"services/google.go:103","msg":""}
+{"level":"info","time":"2022-03-21T13:01:06.077+0100","file":"services/google.go:111","msg":"4/0AX4XfWjcfOKqGyVMybZviLY6L42fBhXkpNevqRTqUbNgkGACZX7iNDTozkVU6d_igsLEnw"}
+{"level":"info","time":"2022-03-21T13:01:06.382+0100","file":"services/google.go:134","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM-Bbc4hRUcYITelGFFQi3g0w82YeeaEuEKkCkgQKRHEyxhJJfhPCTIlLdCWYteOHqLx1voUTZHoxnvbSeK8imaY1tbBaTiQaeKX49HMtUJivcHPehtfkbWIZNx3D0stB61wq6QAG5-TTch2HgpSsm7C"}
+{"level":"info","time":"2022-03-21T13:01:06.382+0100","file":"services/google.go:135","msg":"TOKEN>> Expiration Time>> 2022-03-21 14:01:05.382734 +0100 CET m=+3672.402956863"}
+{"level":"info","time":"2022-03-21T13:01:06.382+0100","file":"services/google.go:136","msg":"TOKEN>> RefreshToken>> 1//03uRoQyO9Hq9GCgYIARAAGAMSNwF-L9IrnD5gX-CO5mGTIdHZddk8EIR_0NtcFDCE_kXqNksUyhRrVVjSsHTv6u15jtV0fhIKJ7E"}
+{"level":"info","time":"2022-03-21T13:02:46.420+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-21T13:04:48.395+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-21T13:06:36.458+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-21T13:13:10.692+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-21T13:13:41.581+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-21T13:15:51.569+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-21T13:16:23.739+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
+{"level":"info","time":"2022-03-21T13:17:30.978+0100","file":"poc-go-oauth2/main.go:34","msg":"Started running on http://localhost:3001"}
